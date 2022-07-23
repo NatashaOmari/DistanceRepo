@@ -1,7 +1,7 @@
 function result() {
     const price = [100, 300, 500, 1000, 1200, 1500];
-    const persons = parseInt(document.getElementById("personsTravelling").value);
-    const distance = parseInt(document.getElementById("distanceCovered").value);
+    const persons = parseInt(document.getElementById("numberofpeople").value);
+    const distance = parseInt(document.getElementById("distance").value);
   
     if (persons >= 1) {
       if (distance >= 1 && distance <= 10) {

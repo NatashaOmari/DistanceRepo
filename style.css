@@ -1,8 +1,23 @@
+body {
+    background-image: url(image3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 table, th, td {
     border: 1px solid black;
  }
  .formdiv {
-    background-color: rgba(211, 206, 206, 0.89);
+    background-color: rgb(158, 253, 158);
     padding: 20px;
     border-radius: 10px;
  }
+table {
+    background-color: aliceblue;
+}
+h2 {
+    color: white;
+}
+button {
+    margin: 10px 0;
+}

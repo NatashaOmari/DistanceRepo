@@ -11,6 +11,7 @@
 <body>
     <div class="container">
         <div class="col-md-12">
+            <h2>Price Chart</h2>
         <table class="table table-striped">
             <tr>
                 <th>Distance Covered (in Km)</th>
@@ -48,20 +49,21 @@
         </div>
         <br>
         <div class="col-md-4 offset-md-4">
+            <h2>Price Calculator</h2>
             <div class="formdiv">
                 <div class="form-group">
-                <label for="exampleInputPeople">Enter the number of people</label>
-                <input type="text" class="form-control" id="personsTravelling">
+                <label for="InputPeople">Enter the number of people</label>
+                <input type="text" class="form-control" id="numberofpeople">
                 </div>
                 <div class="form-group">
-                <label for="exampleInputDistance">Enter the distance you wish to cover</label>
-                <input type="text" class="form-control" id="distanceCovered">
+                <label for="InputDistance">Enter the distance you wish to cover</label>
+                <input type="text" class="form-control" id="distance">
                 </div>
                 <div class="result">
                 <button type="submit" class="btn btn-primary" onclick="result()" id="amountButton">Total amount payable</button>
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control" id="amountInput">
+                    <input type="text" class="form-control" id="amountInput" readonly>
                     </div>
             </div>
                 </div>
