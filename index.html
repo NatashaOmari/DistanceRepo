@@ -9,6 +9,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <div class="col-md-12">
+        <table class="table table-striped">
+            <tr>
+                <th>Distance Covered (in Km)</th>
+                <th>Amount to pay (in Ksh)</th>
+            </tr>
+            <tr>
+                <td>1-10</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>11-50</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>51-100</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>101-200</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>201-300</td>
+                <td>1200</td>
+            </tr>
+            <tr>
+                <td>301-400</td>
+                <td>1500</td>
+            </tr>
+            <tr>
+                <td>401 and above</td>
+                <td>Not applicable</td>
+            </tr>
+        </table>
+        </div>
+        <br>
+        <div class="col-md-4 offset-md-4">
+            <div class="formdiv">
+                <div class="form-group">
+                <label for="exampleInputPeople">Enter the number of people</label>
+                <input type="text" class="form-control" id="personsTravelling">
+                </div>
+                <div class="form-group">
+                <label for="exampleInputDistance">Enter the distance you wish to cover</label>
+                <input type="text" class="form-control" id="distanceCovered">
+                </div>
+                <div class="result">
+                <button type="submit" class="btn btn-primary" onclick="result()" id="amountButton">Total amount payable</button>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="amountInput">
+                    </div>
+            </div>
+                </div>
+    </div>
     <script src="travelling.js"></script>
 </body>
 </html>
